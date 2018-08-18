@@ -1,0 +1,22 @@
+{
+    "name": "jdomenechb/ddd-entity-hydration-proxy",
+    "description": "Sample project intended to show how entities can be hydrated by not using at all written setter methods, and using Proxies.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Jordi Domènech",
+            "email": "jdomenechborges@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1",
+        "ramsey/uuid": "^3.8",
+        "symfony/console": "^4.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "DDDHydration\\" : "src/"
+        }
+    }
+}
