@@ -12,3 +12,6 @@ The project is written using Domain Driven Design. It simulates a blog post + co
 ```
 php bin/run.php posts:all
 ```
+
+## Contributing
+Please, feel free to send pull requests or comments to improve the code and the method.
