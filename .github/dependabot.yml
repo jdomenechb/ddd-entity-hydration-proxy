@@ -1,0 +1,13 @@
+version: 2
+updates:
+  - package-ecosystem: "composer"
+    directories:
+      - '/'
+    schedule:
+      interval: "monthly"
+
+#### Uncomment for github-actions versioning management
+#  - package-ecosystem: "github-actions"
+#    directory: "/"
+#    schedule:
+#      interval: "monthly"
