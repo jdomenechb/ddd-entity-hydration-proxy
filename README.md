@@ -7,7 +7,7 @@ Hydrator classes are used in order to decouple from the entity the hydration pro
 The project is written using Domain Driven Design. It simulates a blog post + comments structure to be able to have some entities to hydrate. The use case to read all posts is the only one implemented as a demo.
 
 ## Running the project
-1. Download all necessary libraries using the `composer up` command.
+1. Download all necessary libraries using the `composer install` command.
 2. Run the application by executing:
 ```
 php bin/run.php posts:all
