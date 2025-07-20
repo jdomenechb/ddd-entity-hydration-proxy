@@ -28,7 +28,7 @@ class GetAllPostsCommand extends Command
             ;
     }
 
-    protected function execute(InputInterface $input, OutputInterface $output)
+    protected function execute(InputInterface $input, OutputInterface $output): int
     {
         $service = new GetAllPostsService(new InMemoryPostRepository());
         $posts = $service->handle(new StdClassPostPresenter());
@@ -52,5 +52,7 @@ class GetAllPostsCommand extends Command
             $output->writeln('>>>>>>>>>>>>>>>>>>>>>>>>>>>>>><<<<<<<<<<<<<<<<<<<<<<<<<<<<<<');
             $output->writeln('');
         }
+
+        return Command::SUCCESS;
     }
 }
