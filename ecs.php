@@ -2,6 +2,7 @@
 
 declare(strict_types=1);
 
+use PhpCsFixer\Fixer\Strict\DeclareStrictTypesFixer;
 use Symplify\EasyCodingStandard\Config\ECSConfig;
 
 return ECSConfig::configure()
@@ -14,4 +15,6 @@ return ECSConfig::configure()
     // add sets - group of rules, from easiest to more complex ones
     // uncomment one, apply one, commit, PR, merge and repeat
     ->withPreparedSets(psr12: true, cleanCode: true, symplify: true,)
+
+    ->withRules([DeclareStrictTypesFixer::class])
 ;
