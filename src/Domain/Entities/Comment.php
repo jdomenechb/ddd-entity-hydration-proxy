@@ -52,7 +52,7 @@ class Comment
         return new self(
             new CommentId(Uuid::uuid4()),
             $author,
-            $content
+            $content,
         );
     }
 

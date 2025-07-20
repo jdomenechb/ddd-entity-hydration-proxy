@@ -25,7 +25,7 @@ class GetAllPostsCommand extends Command
         $this
             ->setName('posts:all')
             ->setDescription('Show all posts')
-            ;
+        ;
     }
 
     protected function execute(InputInterface $input, OutputInterface $output): int

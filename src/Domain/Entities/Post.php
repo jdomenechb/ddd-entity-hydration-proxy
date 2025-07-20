@@ -83,7 +83,7 @@ class Post
         return new self(
             new PostId(Uuid::uuid4()),
             $title,
-            []
-         );
+            [],
+        );
     }
 }

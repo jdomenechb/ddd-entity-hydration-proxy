@@ -13,9 +13,7 @@ namespace DDDHydration\Infrastructure\Domain\Entities\Proxies;
 
 trait HydratableTrait
 {
-    public function __construct()
-    {
-    }
+    public function __construct() {}
 
     public function __call($name, $arguments)
     {
@@ -34,7 +32,7 @@ trait HydratableTrait
         // Assure the property exists
         if (!property_exists($this, $property)) {
             throw new \BadMethodCallException(
-                'The property "' . $property . '" does not exist for method call "' . $name . '"'
+                'The property "' . $property . '" does not exist for method call "' . $name . '"',
             );
         }
 
