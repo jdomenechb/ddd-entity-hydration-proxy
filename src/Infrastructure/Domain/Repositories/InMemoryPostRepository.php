@@ -23,8 +23,7 @@ class InMemoryPostRepository implements PostRepository
             [
                 'id' => 'p1',
                 'title' => 'A title 1',
-                'comments' => [
-                ],
+                'comments' => [],
             ],
             [
                 'id' => 'p2',

@@ -18,10 +18,7 @@ use DDDHydration\Infrastructure\Domain\Entities\Proxies\CommentProxy;
 
 class ArrayCommentHydrator extends ArrayHydrator implements CommentHydrator
 {
-    public function extract(Comment $post)
-    {
-        // TODO: Implement extract() method.
-    }
+    public function extract(Comment $post) {}
 
     public function hydrate($data): Comment
     {

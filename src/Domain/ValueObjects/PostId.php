@@ -17,7 +17,6 @@ class PostId
     private $id;
 
     /**
-     * PostId constructor.
      *
      * @param string $id
      */

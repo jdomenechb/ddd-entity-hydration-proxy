@@ -20,7 +20,6 @@ class GetAllPostsService
     private $postRepository;
 
     /**
-     * GetAllPostsService constructor.
      *
      * @param PostRepository $postRepository
      */

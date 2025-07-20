@@ -18,10 +18,7 @@ use DDDHydration\Infrastructure\Domain\Entities\Proxies\PostProxy;
 
 class ArrayPostHydrator extends ArrayHydrator implements PostHydrator
 {
-    public function extract(Post $post)
-    {
-        // TODO: Implement extract() method.
-    }
+    public function extract(Post $post) {}
 
     public function hydrate($data): Post
     {

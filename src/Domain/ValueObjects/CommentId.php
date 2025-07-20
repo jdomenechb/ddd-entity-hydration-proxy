@@ -17,7 +17,6 @@ class CommentId
     private $id;
 
     /**
-     * CommentId constructor.
      *
      * @param string $id
      */

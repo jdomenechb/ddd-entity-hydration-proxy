@@ -26,7 +26,6 @@ class Post
     protected $comments;
 
     /**
-     * Post constructor.
      *
      * @param PostId    $id
      * @param string    $title
@@ -74,16 +73,11 @@ class Post
     /**
      * @param string $title
      *
-     * @throws \Exception
      *
      * @return Post
      */
     public static function create(string $title)
     {
-        return new self(
-            new PostId(Uuid::uuid4()),
-            $title,
-            [],
-        );
+        return new self(new PostId(Uuid::uuid4()), $title, [],);
     }
 }

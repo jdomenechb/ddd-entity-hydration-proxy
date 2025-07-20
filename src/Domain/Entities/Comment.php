@@ -26,7 +26,6 @@ class Comment
     protected $content;
 
     /**
-     * Comment constructor.
      *
      * @param CommentId $id
      * @param string    $author
@@ -43,17 +42,12 @@ class Comment
      * @param string $author
      * @param string $content
      *
-     * @throws \Exception
      *
      * @return Comment
      */
     public static function create(string $author, string $content)
     {
-        return new self(
-            new CommentId(Uuid::uuid4()),
-            $author,
-            $content,
-        );
+        return new self(new CommentId(Uuid::uuid4()), $author, $content,);
     }
 
     /**
