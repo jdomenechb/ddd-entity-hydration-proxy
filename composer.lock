@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "90a72add8adfb1de30c26cc414dbe86e",
+    "content-hash": "161a0bc7fb9afbd91a9ea75908c47394",
     "packages": [
         {
             "name": "brick/math",
@@ -946,25 +946,25 @@
     "packages-dev": [
         {
             "name": "symplify/easy-coding-standard",
-            "version": "12.6.2",
+            "version": "13.1.3",
             "source": {
                 "type": "git",
-                "url": "https://github.com/easy-coding-standard/easy-coding-standard.git",
-                "reference": "7a6798aa424f0ecafb1542b6f5207c5a99704d3d"
+                "url": "https://github.com/easy-coding-standard/ecs.git",
+                "reference": "d894d088d7ebb9326f9eed28bf251481c813b89f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/easy-coding-standard/easy-coding-standard/zipball/7a6798aa424f0ecafb1542b6f5207c5a99704d3d",
-                "reference": "7a6798aa424f0ecafb1542b6f5207c5a99704d3d",
+                "url": "https://api.github.com/repos/easy-coding-standard/ecs/zipball/d894d088d7ebb9326f9eed28bf251481c813b89f",
+                "reference": "d894d088d7ebb9326f9eed28bf251481c813b89f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=7.2"
             },
             "conflict": {
-                "friendsofphp/php-cs-fixer": "<3.46",
-                "phpcsstandards/php_codesniffer": "<3.8",
-                "symplify/coding-standard": "<12.1"
+                "friendsofphp/php-cs-fixer": "<3.95.1",
+                "phpcsstandards/php_codesniffer": "<4.0.1",
+                "symplify/coding-standard": "<13.0"
             },
             "suggest": {
                 "ext-dom": "Needed to support checkstyle output format in class CheckstyleOutputFormatter"
@@ -990,20 +990,9 @@
                 "static analysis"
             ],
             "support": {
-                "issues": "https://github.com/easy-coding-standard/easy-coding-standard/issues",
-                "source": "https://github.com/easy-coding-standard/easy-coding-standard/tree/12.6.2"
+                "source": "https://github.com/easy-coding-standard/ecs/tree/13.1.3"
             },
-            "funding": [
-                {
-                    "url": "https://www.paypal.me/rectorphp",
-                    "type": "custom"
-                },
-                {
-                    "url": "https://github.com/tomasvotruba",
-                    "type": "github"
-                }
-            ],
-            "time": "2025-10-29T08:51:50+00:00"
+            "time": "2026-05-04T21:45:57+00:00"
         }
     ],
     "aliases": [],
